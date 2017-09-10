@@ -8,6 +8,8 @@ Remember to always keep your private keys private and hidden, if saving the key 
 
 ## Try it out
 
+Make sure that you have go (https://golang.org/doc/install) installed and the go bin/ directory on your PATH variable, then: 
+
 Install with
 
     $ go get github.com/mojlighetsministeriet/rsa-private-key-generator
