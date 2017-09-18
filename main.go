@@ -5,6 +5,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
+	"errors"
 	"fmt"
 	"os"
 	"regexp"
@@ -20,7 +21,7 @@ func main() {
 	pattern := regexp.MustCompile("[^\\d]+")
 	bits, err := strconv.Atoi(pattern.ReplaceAllString(bitsArgument, ""))
 	if err != nil {
-		panic("First argument must be the number of bits that should be used for the key e.g. 4096")
+		panic(errors.New("First argument must be the number of bits that should be used for the key e.g. 4096"))
 	}
 
 	privateKey, err := rsa.GenerateKey(rand.Reader, bits)

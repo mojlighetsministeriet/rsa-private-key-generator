@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/mojlighetsministeriet/rsa-private-key-generator.svg?branch=master)](https://travis-ci.org/mojlighetsministeriet/rsa-private-key-generator)
+
+[![Coverage Status](https://coveralls.io/repos/github/mojlighetsministeriet/rsa-private-key-generator/badge.svg?branch=master)](https://coveralls.io/github/mojlighetsministeriet/rsa-private-key-generator?branch=master)
+
 # rsa-private-key-generator
 
 A cli tool that helps you generate a private RSA key. Choose the amount of bits with the first argument so to generate with 8192 bits, run:
@@ -8,7 +12,7 @@ Remember to always keep your private keys private and hidden, if saving the key 
 
 ## Try it out
 
-Make sure that you have go (https://golang.org/doc/install) installed and the go bin/ directory on your PATH variable, then: 
+Make sure that you have go (https://golang.org/doc/install) installed and the go bin/ directory on your PATH variable, then:
 
 Install with
 
