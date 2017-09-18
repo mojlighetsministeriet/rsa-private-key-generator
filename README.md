@@ -14,11 +14,11 @@ Remember to always keep your private keys private and hidden, if saving the key 
 
 Make sure that you have go (https://golang.org/doc/install) installed and the go bin/ directory on your PATH variable, then:
 
-Install with
+Install with:
 
     $ go get github.com/mojlighetsministeriet/rsa-private-key-generator
 
-Run with
+Run with:
 
     $ rsa-private-key-generator 8192
 
