@@ -6,7 +6,7 @@
 
 A cli tool that helps you generate a private RSA key. Choose the amount of bits with the first argument so to generate with 8192 bits, run:
 
-    $ rsa-private-key-generator 8192
+    $ rsa-private-key-generator 4096
 
 Remember to always keep your private keys private and hidden, if saving the key to a file, make sure that the file has the permissions 0600.
 
@@ -20,7 +20,7 @@ Install with:
 
 Run with:
 
-    $ rsa-private-key-generator 8192
+    $ rsa-private-key-generator 4096
 
 ## License
 
